@@ -1,0 +1,147 @@
+.courses-section-1-container {
+
+   position:relative;
+   height:70vh; 
+   padding-top:5rem;
+
+}
+
+.courses-section-1-content {
+
+    margin:auto;
+    width:50vw;
+    text-align:center;
+    
+}
+
+.courses-section-1-content h2 {
+
+    font-size:2.5rem;
+    font-weight:900;
+    color:#bc544b;
+    text-shadow:2px 2px #f5f5f5;
+}
+
+.courses-section-1-content p {
+
+    color:#f5f5f5;
+    line-height:2.25rem;
+}
+
+.courses-section-1-line {
+
+    width:15vw;
+    margin-top:3rem;
+
+}
+
+.courses-section-1-line hr {
+
+    border:1px solid #bc544b;
+    text-align:center;
+    
+}
+
+.courses-container {
+
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:2rem;
+}
+
+.courses-section-2-container {
+
+    padding-top:6rem;
+}
+
+.courses-section-2-container h2 {
+
+    text-align:center;
+    font-size:3rem;
+    margin-bottom:5rem;
+    color:#f5f5f5;
+    text-shadow:2px 2px 3px #d21404;
+
+}
+
+
+.add-to-cart {
+
+    text-align:center;
+}
+
+.addToCartBtn {
+
+    background-color:#bc544b00;
+    color:#db3728;
+    border:none;
+    font-size:1.5rem;
+}
+
+.addToCart:hover {
+
+    color:#bc544b;
+}
+
+.courses-container p {
+
+    color:#f5f5f5;
+    text-align:center;
+}
+
+#cartMessage {
+
+    width:20vw;
+    background-color:#bc544b;
+    color:#f5f5f5;
+    text-align:center;
+    display:none;
+    padding:1rem;
+    font-size:1rem;
+    position:absolute;
+    top:35vw;
+    left:85vh;
+}
+
+@media screen and (max-width:1200px) {
+
+    .courses-section-1-content {
+
+        width:60vw;
+    }
+
+
+}
+
+@media screen and (max-width:995px) {
+
+    .courses-section-1-content {
+
+        width:90vw;
+    }
+
+    .courses-container {
+
+        display:block;
+        text-align:center;
+    
+    }
+
+    .row-course {
+
+        margin-bottom:5rem;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .courses-section-1-content h2 {
+
+        font-size:1.5rem;
+    }
+
+}
+
+
+

@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+
+* {
+
+    box-sizing:border-box;
+}
+
+body {
+
+    font-size:18px;
+    font-family: 'Poppins', sans-serif;
+    background-color:#666a6d;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       box-sizing:border-box;
+
+}
+
+header {
+
+    background-color:#F5F5F5;
+    height:8vh;
+}
+
+.container {
+
+    margin:auto;
+    width:90vw;
+}
+
+.header-container {
+
+    display:flex;
+    justify-content:space-between;
+    padding:0.75rem 0;
+    align-items:center;
+    
+}
+
+.header-nav {
+
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+.header-nav li {
+
+    list-style:none;
+    margin-left:2.5rem;
+    text-align:center;
+    
+}
+
+.header-nav a {
+
+    text-decoration:none;
+    color:#d21404;
+}
+
+.header-nav a:hover {
+
+    color:#f06c60;
+}
+
+#paidVideos {
+
+    color:brown;
+    border:none;
+    font-size:1.25rem;
+}
+
+.header-btn #join-button {
+
+    padding:0.3rem 1rem;
+    font-size:1rem;
+    border-radius:0.3rem;
+    border:1px solid #d21404;
+    color:#bc544b;
+    cursor:pointer;
+}
+
+.header-btn #join-button:hover {
+
+    color:#F5F5F5;
+    background-color:#bc544b;
+    border:none;
+}
+
+.header-btn #logout-button {
+
+    padding:0.3rem 1rem;
+    font-size:1rem;
+    border-radius:0.3rem;
+    border:1px solid #d21404;
+    color:#bc544b;
+    cursor:pointer;
+}
+
+.header-btn #logout-button:hover {
+
+    color:#F5F5F5;
+    background-color:#bc544b;
+    border:none;
+}
+
+.brand-logo {
+
+    text-decoration:none;
+    color:#bc544b;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-left:0.5rem;
+    cursor:pointer;
+}
+
+.fa-fire-alt {
+
+    font-size:2rem; 
+    color:#7d7f7c;
+
+}
+
+.header-cart {
+
+    text-decoration:none;
+}
+
+.header-cart .cartNumber {
+
+    background-color:#bc544b;
+    color:#F5F5F5;
+    padding:0 0.4rem;
+
+}
+
+.fa-shopping-cart {
+
+    color:#666a6d;
+}
+
+footer {
+
+    background-color:#f5f5f5;
+    margin-top:12rem;
+    padding-top:2.5rem;
+    padding-bottom:1.25rem;
+ }
+
+ .footer-container {
+
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    justify-content:space-between;
+    height:25vh;
+    width:60vw;
+ }
+
+ .footer-menu-socials {
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+ }
+
+ .footer-menu ul {
+
+    display:flex;
+    margin:0;
+    padding:0;
+    
+ }
+
+ .footer-menu li {
+
+    list-style:none;
+    margin-right:2rem;
+ }
+
+ .footer-menu a {
+
+    text-decoration:none;
+    color:#d21404;
+ }
+
+ .footer-menu a:hover {
+
+    color:#f06c60;
+ }
+
+ .fa-facebook {
+
+    font-size:1.75rem;
+    margin-left:2rem;
+    color:#bc544b;
+    transition:1s;
+    
+ }
+
+ .fa-twitter {
+
+    font-size:1.75rem;
+    margin-left:2rem;
+    color:#bc544b;
+    transition:1s;
+ }
+
+ .fa-facebook:hover {
+
+    transform:scaleY(1.5);
+    color:#f06c60;
+ }
+
+.fa-twitter:hover {
+
+    transform:scaleY(1.5);
+    color:#f06c60;
+}
+
+.footer-email-phone-container {
+
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+    padding-top:1rem;
+    margin:auto;
+}
+
+.contact {
+
+    margin-left:0.25rem;
+    color:#d21404;
+    
+}
+
+.fa-envelope-open {
+
+    color:#666a6d;
+
+}
+
+.fa-phone {
+
+    color:#666a6d;
+
+}
+
+.copyright {
+
+    text-align:center;
+    margin-bottom:0;
+    color:#666a6d;
+    font-size:1rem;
+}
+
+/* The Modal (background) */
+.modal {
+    
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30px; /* Location of the box */
+    left: 30vw;
+    top: 8vh;
+    width: 40%; /* Full width */
+    height: 50%; /* Full height */
+    overflow:none; /* Enable scroll if needed */
+    background-color:#d21404; /* Fallback color */
+    background-color:#fcb0a95e; /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    
+    background-color:#f5f5f5;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    
+  }
+  
+  /* The Close Button */
+  .close {
+    
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .signup-login label {
+
+    display:block;
+    margin-bottom:0.5rem;
+  }
+
+  #email {
+
+    display:block;
+    height:5vh;
+    margin-bottom:1.5rem;
+  }
+
+  #password {
+
+    display:block;
+    height:5vh;
+    margin-bottom:1.5rem;
+  }
+
+  .signup-login-buttons a {
+
+    text-decoration:none;
+    color:#d21404;
+    font-size:1rem;
+  }
+
+  .signup-login-buttons a:hover {
+
+    color:#f06c60;
+  }
+
+.signup-login-buttons button {
+
+    margin-left:2.5rem;
+    padding:0.25rem 0.75rem;
+    background-color:#f06c60;
+    color:#F5F5F5;
+    border:none;
+    border-radius:2rem;
+}
+
+.signup-login-buttons button:hover {
+
+    background-color:#f5f5f5;
+    color:#f06c60;
+    border:1px solid #f06c60;
+}
+
+#validationMessage {
+
+    position:absolute;
+    top:25vh;
+    right:1vw;
+    background-color:gainsboro;
+    padding:1rem;
+    color:#d21404;
+    display:none;
+
+}
+
+.accessContainer{
+
+  width:17vw;
+  height:40vh;
+  background-color:#f5f5f5;
+  position:absolute;
+  left:45vw;
+  top:4vw;
+  display:none;
+}
+
+.accessContainer ul {
+
+  list-style-type:none;
+}
+
+.accessContainer a {
+
+  text-decoration:none;
+  color:#bc544b;
+}
+
+.accessContainer a:hover {
+
+  color:#f06c60;
+}
+
+
+@media screen and (max-width:995px) {
+
+    .logo-name {
+
+        display:none;
+    }
+
+    .header-nav li {
+
+        margin-left:1rem;
+    }
+
+    .header-btn #logout-button {
+
+        border:none;
+    }
+
+    #paidVideos {
+
+        font-size:1rem;
+    }
+
+    .header-btn #join-button {
+
+        border:none;
+    }
+
+    .header-cart .cartNumber {
+
+        padding:0 0.2rem;
+        font-size:0.9rem;
+    }
+
+    .footer-menu-socials {
+
+        font-size:1.1rem;
+    }
+
+    .fa-twitter {
+
+        font-size:1.5rem;
+    }
+
+    .fa-facebook {
+
+        font-size:1.5rem;
+    }
+
+    .fa-phone {
+
+        margin-left:2rem;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    .footer-container {
+
+        width:80vw;
+    }
+}

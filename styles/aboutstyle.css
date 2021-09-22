@@ -1,0 +1,224 @@
+.about-banner-section-container {
+
+    background-image:url("../fitnessimages/fitness8.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:70vh;
+    position:relative;
+    
+}
+
+.about-banner-section-content {
+
+    position:absolute;
+    top:35vh;
+    left:35vw;
+    color:#f5f5f5;
+    background-color: #bc544b60;
+    padding:0 2.5rem;
+
+}
+
+.about-banner-section-content h2 {
+
+    text-align:center;
+    font-size:2.5rem;
+    
+}
+
+.stand {
+
+    color:#d21404;
+    font-size:2.75rem;
+}
+
+.about-section-2-container {
+
+    display:flex;
+    padding-top:8rem;
+    justify-content:space-between;
+}
+
+.about-section-2-icons {
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    border:1px solid #693833;
+    padding:2rem;
+    margin-left:1.5rem;
+}
+
+.about-section-2-icons:hover {
+
+    border:1px solid #bc544b;
+}
+
+.about-section-2-icons p {
+
+    color:#f5f5f5;
+    text-align:center;
+    line-height:2.25rem;
+
+}
+
+.fa-running {
+
+    color:#bc544b;
+    font-size:2rem;
+}
+
+.fa-fist-raised {
+
+    color:#bc544b;
+    font-size:2rem;
+}
+
+.fa-biking {
+
+    color:#bc544b;
+    font-size:2rem;
+}
+
+.about-section-3 {
+
+    background-image:url("../fitnessimages/fitness18.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:65vh;
+    margin-top:6rem;
+    background-attachment:fixed;
+}
+
+.about-section-4-container {
+
+    padding-top:5rem;
+    text-align:center;
+    margin:auto;
+    width:55vw;
+}
+
+.about-section-4-container h2 {
+
+    color:#bc544b;
+    line-height:2.5rem;
+    background-color:#f5f5f5c9;
+    border-radius:3rem;
+    padding:1.5rem;
+    margin-bottom:3rem;
+}
+
+.about-section-4-container h2:hover {
+
+    text-transform:uppercase;
+}
+
+.about-section-4-container a {
+
+    text-decoration:none;
+    color:#f5f5f5;
+    border:1px solid #bc544b;
+    border-radius:2rem;
+    padding:0.5rem 1rem;
+
+}
+
+.about-section-4-container a:hover {
+
+    color:#f5f5f5;
+    background-color:#bc544b;
+}
+
+.about-section-5-container {
+
+    margin-top:6rem;
+    background:linear-gradient(to bottom right, #666a6d, #bc544b);
+    display:flex;
+    justify-content:space-between;
+    border-bottom-right-radius:2rem;
+
+}
+
+.about-section-5-container p {
+
+    
+    color:#f5f5f5;
+    width:55%;
+    align-self:center;
+    text-align:center;
+    margin-right:5rem;
+    line-height:2.25rem;
+    
+}
+
+.about-section-6-container {
+
+    text-align:center;
+    margin-top:8rem;
+}
+
+.about-section-6-container a {
+
+    text-decoration:none;
+    font-size:2.5rem;
+    color:#bc544b;
+    text-shadow:2px 2px #f5f5f5;
+}
+
+.about-section-6-container a:hover {
+
+    text-shadow:4px 4px 4px #bc544b;
+    color:#f5f5f5;
+}
+
+@media screen and (max-width:995px) {
+
+    .about-banner-section-content {
+
+        padding:0 1.5rem;
+        left:3%;
+    }
+
+    .about-section-4-container {
+
+        width:65vw;
+    }
+
+    .about-section-5-container {
+
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    .about-section-2-container {
+
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+        height:140vh;
+    }
+
+    .about-section-4-container {
+
+        width:80vw;
+    }
+
+    .about-section-5-container p {
+
+        width:70%;
+    }
+
+    .about-section-6-container a {
+
+        font-size:2rem;
+    }
+
+}
+

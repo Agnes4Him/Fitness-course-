@@ -1,0 +1,24 @@
+.customersTable table {
+
+  border-collapse:collapse;
+  color:#f5f5f5;
+
+}
+
+.customersTable td, .customersTable th {
+
+  border: 1px solid rgb(233, 206, 206);
+  padding: 1rem;
+
+}
+
+.customersTable th {
+
+  background-color:brown;
+
+}
+
+.customersTable tr:hover {
+
+  background-color:rgb(231, 110, 110);
+}

@@ -1,0 +1,337 @@
+.header-banner {
+
+    background-image:url("../fitnessimages/fitness3.jpg");
+    background-repeat:no-repeat;
+    background-position:center center; 
+    background-size:cover;
+    height:65vh;
+    position:relative;
+ 
+ }
+ 
+ .header-banner-content {
+ 
+     color:#F5F5F5;
+     line-height:1.5rem;
+     position:absolute;
+     top:0;
+     left:50%;
+     margin-top:12%;
+     margin-left:-45%;
+     transition:1s;
+     
+ }
+ 
+ .header-banner-content h2 {
+ 
+     margin-top:0;
+     font-size:3rem;
+ }
+ 
+ .header-banner-content h3 {
+ 
+     font-size:2rem;
+     
+ }
+ 
+ .motivated {
+ 
+     color:#bc544b;
+     font-size:2.5rem;
+ }
+ 
+ .header-banner-button-1 {
+ 
+     text-decoration:none;
+     position:absolute;
+     bottom:1.5rem;
+     padding:0.3rem 1rem;
+     font-size:0.9rem;
+     border-radius:0.3rem;
+     border:1px solid #d21404;
+     color:#d21404;
+     cursor:pointer;
+ 
+ }
+ 
+ .header-banner-button-1:hover {
+ 
+     color:#F5F5F5;
+     background-color:#bc544b;
+     border:none;
+ }
+ 
+ .header-banner-button-2 {
+ 
+     text-decoration:none;
+     position:absolute;
+     bottom:1.5rem;
+     left:9rem;
+     padding:0.3rem 1rem;
+     font-size:0.9rem;
+     background-color:#bc544b;
+     border-radius:0.3rem;
+     color:#F5F5F5;
+     cursor:pointer;
+ 
+ }
+ 
+ .header-banner-button-2:hover {
+ 
+     color: #bc544b;
+     background:transparent;
+     border:1px solid #bc544b;
+ }
+ 
+ .home-section-2-container {
+ 
+     padding-top:6rem;
+ }
+ 
+ .home-section-2-heading-container {
+ 
+     margin:auto;
+     width:40vw;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+ }
+ 
+ .home-section-2-line {
+ 
+     flex-grow:1;
+ }
+ 
+ .home-section-2-line hr {
+ 
+     border:1px solid #F5F5F5;
+ }
+ 
+ .home-section-2-heading {
+ 
+     flex-grow:3;
+     text-align:center;
+     color:#d21404;;
+     font-size:1.5rem;
+     font-weight:bold;
+ }
+ 
+ .home-section-2-text {
+ 
+     text-align:center;
+     line-height:2.5rem;
+     color:#F5F5F5;
+ }
+ 
+ .home-section-2-text-container {
+ 
+     margin:auto;
+     width:70vw;
+ }
+ 
+ .home-section-2-link {
+ 
+     text-align:center;
+     padding-top:2rem;
+ }
+ 
+ .home-section-2-link a {
+ 
+     text-decoration:none;
+     color:#f5f5f5;
+     background-color:#bc544b;
+     padding:5px 12px;
+     border-radius:0.3rem;
+ }
+ 
+ .home-section-2-link a:hover {
+ 
+     background:transparent;
+     border:1px solid #bc544b;
+     color:#bc544b;
+ }
+ 
+ .home-section-3-container {
+ 
+     padding-top:6rem;
+     display:flex;
+     justify-content:space-between;
+ 
+ }
+ 
+ .home-section-3-text-container {
+ 
+     box-shadow:8px 8px 5px #bc544b;
+     align-self:center;
+     width:40vw;
+     
+ }
+ 
+ .home-section-3-text {
+ 
+     color:#f5f5f5;
+     text-align:center;
+     line-height:2.5rem;
+ 
+ }
+ 
+ .home-section-3-image-container img {
+ 
+     transition:1s;
+     width:40vw;
+ }
+ 
+ .home-section-3-image-container img:hover {
+ 
+     transform:rotateZ(100deg);
+     transform:rotateX(100deg);
+     transform:rotateY(100deg);
+ }
+ 
+ .home-section-4-container {
+ 
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+     padding-top:6rem;
+ }
+
+ .home-section-4-image img {
+
+    width:40vw;
+ }
+ 
+ .icons-section-icons {
+ 
+     display:flex;
+     justify-content:center;
+ }
+ 
+ .icons-section {
+ 
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+ }
+ 
+ .icons-section-heading {
+ 
+     text-align:center;
+     color:#666a6d;
+     text-shadow:2px 2px 5px #d21404;
+     font-size:2.2rem;
+     
+ }
+ 
+ .icon {
+ 
+     text-align:center;
+     margin-top:1rem;
+     margin-left:1rem;
+     border:1px solid #8b6d6a;
+     padding:0.5rem;
+ }
+
+ .icon p {
+
+    color:#f5f5f5;
+ }
+ 
+ .fa-accessible-icon {
+
+    font-size:2rem;
+    color:#bc544b;
+ } 
+
+ .fa-heartbeat {
+
+    font-size:2rem;
+    color:#bc544b;
+ } 
+
+ .fa-shoe-prints {
+
+    font-size:2rem;
+    color:#bc544b;
+ } 
+
+ @media screen and (max-width:995px) {
+
+    .header-banner-button-1 {
+
+        bottom:5rem;
+        left:2rem;
+    }
+
+    .header-banner-button-2 {
+
+        bottom:5rem;
+    }
+
+    .home-section-2-heading-container {
+
+        width:60vw;
+    }
+
+    .home-section-3-text-container {
+
+        width:50vw;
+    }
+
+    .icons-section-heading {
+
+        font-size:2rem;
+    }
+
+ }
+
+ @media screen and (max-width:600px) {
+
+    .home-section-2-heading {
+
+        font-size:1.1rem;
+    }
+
+    .home-section-2-line {
+
+        display:none;
+    }
+
+    .home-section-2-text-container {
+
+        width:90vw;
+    }
+
+    .home-section-3-container {
+
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .home-section-3-text-container {
+
+        width:70vw;
+        margin-bottom:5rem;
+    }
+
+    .home-section-3-image-container img {
+
+        width:65vw;
+    }
+
+    .home-section-4-container {
+
+        flex-direction:column;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .home-section-4-image img {
+
+        width:55vw;
+    }
+
+ }
+
+

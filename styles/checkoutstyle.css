@@ -1,0 +1,66 @@
+.checkoutContainer {
+
+  margin:auto;
+  width:80vw;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding-top:2rem;
+}
+
+.checkoutContainer p {
+
+  color:#f5f5f5;
+}
+
+.productInfo {
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+#checkoutPrice, #checkoutName {
+
+  color:rgb(245, 47, 47);
+}
+
+input {
+
+  padding:0.75rem 0;
+  width:40vw;
+  margin-bottom:1rem;
+}
+
+#payButton {
+
+  padding:0.5rem 2rem;
+  background-color:brown;
+  color:#f5f5f5;
+  border:none;
+  font-size:1.25rem;
+}
+
+#payButton:hover {
+
+  background-color:rgb(224, 100, 100)
+}
+
+@media screen and (max-width:600px) {
+
+  .checkoutContainer {
+
+    flex-direction:column;
+  }
+
+  .productInfo {
+
+    margin-top:3rem;
+  }
+
+  input {
+
+    width:65vw;
+  }
+}

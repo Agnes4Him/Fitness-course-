@@ -1,0 +1,194 @@
+.cart-container {
+
+  margin:auto;
+  width:70vw;
+}
+
+.cart-heading {
+
+  display:flex;
+  justify-content:space-between;
+  font-size:1.5rem;
+  margin-bottom:5rem;
+  
+}
+
+.cart-column-heading {
+
+  border-bottom:1px solid #bc544b;
+  color:#f5f5f5;
+  text-align:center;
+  
+  
+}
+
+.cart-column-heading-1 {
+
+  margin-left:8rem;
+}
+
+.cart-column-heading-2 {
+
+  margin-left:12rem;
+}
+
+.cart-column-heading-3 {
+
+  text-decoration:none;
+}
+
+.cart-column-heading-3:hover {
+
+  color:#bc544b;
+}
+
+
+.cart-row .title, .amount {
+
+  color: #f5f5f5;
+}
+
+.cart-row .title {
+
+  margin-left:1rem;
+}
+
+.productCheckout {
+
+  background:transparent;
+  border:none;
+  color:#bc544b;
+  font-size:1.25rem;
+}
+
+.item-number {
+
+  width:2vw;
+}
+
+.cart-row {
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:1px solid #bc544b;
+  padding-bottom:2rem;
+}
+
+.cart-row-1 {
+
+  margin-bottom:5rem;
+}
+
+.cart-row-2 {
+
+  margin-bottom:2rem;
+}
+
+.cart-container h2 {
+
+  text-align:center;
+  margin:8rem 0 5rem 0;
+  font-size:2.5rem;
+  color:#db3728;
+}
+
+.video-and-title {
+
+  display:flex;
+  align-items:center;
+  
+}
+
+.fa-play-circle {
+
+  font-size:2rem;
+  color:#f5f5f5;
+}
+
+.total {
+
+  display:flex;
+  justify-content:flex-end;
+  font-size:1.25rem;
+  color:#f5f5f5;
+}
+
+.total-amount {
+
+  margin-left:12rem;
+  margin-right:3rem;
+}
+
+.purchase-button {
+
+  margin-top:4rem;
+  text-align:center;
+  
+}
+
+.checkout {
+
+  margin:auto;
+  width:40vw;
+  text-align:center;
+}
+
+.cartButton {
+
+  padding:1rem;
+  font-size:1.25rem;
+  border-radius:1.5rem;
+  border:none;
+  background-color:#d21404;
+  box-shadow:5px 5px 4px #f5f5f5;
+  color:#f5f5f5;
+  margin-top:2.5rem;
+}
+
+.cartButton:hover {
+
+  background-color:#f5f5f5;
+  box-shadow:3px 3px 4px #d21404;
+  color:#d21404;
+}
+
+.fa-trash-alt {
+
+  color:#f5f5f5;
+}
+
+.removeCheckout {
+
+  display:flex;
+  justify-content:space-between;
+}
+
+#cartDeleteMessage {
+
+  margin:auto;
+  background-color: #bc544b;
+  width:30vw;
+  padding:0.5rem 0;
+  text-align:center;
+  color:#f5f5f5;
+}
+
+@media screen and (max-width:995px) {
+
+  .cart-row {
+
+    flex-direction:column;
+    
+  }
+
+  .cart-heading{
+
+    display:none;
+  }
+
+  .video-and-title {
+
+    margin-bottom:2rem;
+  }
+}

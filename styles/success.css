@@ -1,0 +1,49 @@
+.paymentDetails {
+
+  margin:auto;
+  width:80vw;
+  text-align:center;
+}
+
+.paymentDetails h3 {
+
+  color:#f5f5f5;
+  margin-bottom:4rem;
+  margin-top:2rem;
+}
+
+.paymentDetails table {
+
+  margin:auto;
+  width:60%;
+  border-collapse:collapse;
+  color:#f5f5f5;
+}
+
+.paymentDetails td, .paymentDetails th {
+  border: 1px solid rgb(233, 206, 206);
+  padding: 1rem;
+}
+
+.paymentDetails a {
+
+  text-decoration:none;
+  color:brown;
+}
+
+.paymentDetails a:hover {
+
+  color:rgb(231, 110, 110)
+}
+
+.paymentDetails tr:nth-child(even){
+  
+  background-color: rgb(231, 110, 110);
+
+}
+
+.paymentDetails tr:hover {
+  
+  background-color: rgb(29, 21, 21);
+
+}
