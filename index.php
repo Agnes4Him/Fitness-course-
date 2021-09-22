@@ -136,7 +136,7 @@ if($_GET['function']== "logout") {
 
         </div>
       </div>
-      
+    
     </section>
 
     <section>
