@@ -105,12 +105,10 @@ if(isset($_POST['pay_button'])) {
       function payWithPaystack(e) {
   
         e.preventDefault();
-
-        var paystack_key = process.env.PAYSTACK_API_KEY;
   
         let handler = PaystackPop.setup({
     
-          key: paystack_key, // Replace with your public key
+          key: process.env.PAYSTACK_API_KEY, // Replace with your public key
 
           firstname:'<?php echo $first_name; ?>',
 

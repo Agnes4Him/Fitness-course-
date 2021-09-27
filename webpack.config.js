@@ -12,7 +12,7 @@ module.exports = {
     rules: [
       { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
       {
-        test: /\.png$/,
+        test: /\.jpg$/,
         use: [
           {
             loader: 'url-loader',
@@ -36,7 +36,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      template: 'index.php',
+      template: './index.php',
       filename: 'index.php',
       inject: 'body'
     }),

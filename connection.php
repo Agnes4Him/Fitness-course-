@@ -10,7 +10,7 @@
 
  $user_name = $_ENV['USER_NAME'];
 
- $password = $_ENV['password'];
+ $password = $_ENV['PASSWORD'];
 
  $database_name = $_ENV['DATABASE_NAME'];
 
