@@ -108,7 +108,7 @@ if(isset($_POST['pay_button'])) {
   
         let handler = PaystackPop.setup({
     
-          key: process.env.PAYSTACK_API_KEY, // Replace with your public key
+          key: 'pk_test_37eb66e4e10eb4f47701e3151b5dd1f04b905252',
 
           firstname:'<?php echo $first_name; ?>',
 

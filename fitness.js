@@ -28,8 +28,8 @@ $("#signupLogin").click(function() {
     
         $("#validationMessage").html(result).show();
 
-        window.location.assign("http://localhost:8888/portfolio_projects/fitnesscourse/index.php");
-    
+        setTimeout("location.assign(location.href)", 2000);
+
       }
     
      })
