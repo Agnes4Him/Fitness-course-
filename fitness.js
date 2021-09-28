@@ -28,7 +28,7 @@ $("#signupLogin").click(function() {
     
         $("#validationMessage").html(result).show();
 
-        setTimeout("location.assign(location.href)", 2000);
+        setTimeout('window.location.assign("http://localhost:8888/portfolio_projects/fitnesscourse/index.php")', 2000);
 
       }
     
