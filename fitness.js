@@ -28,7 +28,7 @@ $("#signupLogin").click(function() {
     
         $("#validationMessage").html(result).show();
 
-        setTimeout('window.location.assign("/index.php")', 2000);
+        setTimeout('location.assign("/index.php")', 2000);
 
       }
     

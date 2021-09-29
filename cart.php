@@ -103,7 +103,7 @@ while($row=mysqli_fetch_assoc($result)) { ?>
 
         <input type="hidden" name="p_price" value="<?php echo $row['pprice'] ?>">
 
-        <button class="productCheckout">Checkout</button>
+        <button type="submit" class="productCheckout">Checkout</button>
 
       </form>
 
