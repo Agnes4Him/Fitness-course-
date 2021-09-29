@@ -6,7 +6,7 @@
 
        <div class="header-container container">
 
-          <a href="index.php" class="brand-logo">
+          <a href="/index.php" class="brand-logo">
         
             <i class="fas fa-fire-alt"></i>
 
@@ -16,9 +16,9 @@
  
           <ul class="header-nav">
 
-            <li><a href="about.php">About</a></li>
+            <li><a href="/about.php">About</a></li>
 
-            <li><a href="courses.php">Courses</a></li>
+            <li><a href="/courses.php">Courses</a></li>
 
             <?php include("connection.php");
 
@@ -38,7 +38,7 @@
 
           <?php if($_SESSION['id']) { ?>
 
-            <a href="index.php?function=logout"><button id="logout-button">Logout</button></a>
+            <a href="/index.php?function=logout"><button id="logout-button">Logout</button></a>
 
           <?php }else { ?>
 

@@ -61,7 +61,7 @@ session_unset();
 
     <div class="cart-column-heading cart-column-heading-2">PRICE</div>
 
-    <a class="cart-column-heading cart-column-heading-3" href="actions.php?clear=all" onclick="return confirm('Are you sure you want to clear your cart?')">CLEAR ALL</a>
+    <a class="cart-column-heading cart-column-heading-3" href="/actions.php?clear=all" onclick="return confirm('Are you sure you want to clear your cart?')">CLEAR ALL</a>
      
   </div>
 
@@ -89,7 +89,7 @@ while($row=mysqli_fetch_assoc($result)) { ?>
 
     <div class="removeCheckout">
       
-      <a class="checkbox-and-remove" href="actions.php?remove=<?php echo $row['pid']; ?>" onclick="return confirm('Are you sure you want to remove this item from the cart?')">
+      <a class="checkbox-and-remove" href="/actions.php?remove=<?php echo $row['pid']; ?>" onclick="return confirm('Are you sure you want to remove this item from the cart?')">
 
          <i class="fas fa-trash-alt"></i>
 

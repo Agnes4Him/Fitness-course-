@@ -110,7 +110,7 @@ if($_GET['function']== "logout") {
               ratione aperiam vitae illo eos obcaecati!
           </h2>
 
-          <a href="courses.php">View Courses</a>
+          <a href="/courses.php">View Courses</a>
 
         </div>
 
@@ -135,7 +135,7 @@ if($_GET['function']== "logout") {
 
        <div class="about-section-6-container">
 
-         <a href="courses.php"><h3>Enrol For Classes Today</h3></a>
+         <a href="/courses.php"><h3>Enrol For Classes Today</h3></a>
 
        </div>
 

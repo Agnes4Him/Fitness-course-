@@ -160,7 +160,7 @@ if(mysqli_query($link, $query)) {
 
           <th>Access Course</th>
 
-          <td>Click <a href="playcourse.php?course=<?php echo $product_name; ?>">here</a></td>
+          <td>Click <a href="/playcourse.php?course=<?php echo $product_name; ?>">here</a></td>
 
         </tr>
 

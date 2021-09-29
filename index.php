@@ -60,9 +60,9 @@ if($_GET['function']== "logout") {
 
        <div class="header-banner-button">
 
-         <a class="header-banner-button-1" href="courses.php">Enrol</a>
+         <a class="header-banner-button-1" href="/courses.php">Enrol</a>
 
-         <a class="header-banner-button-2" href="about.php">Learn More</a>
+         <a class="header-banner-button-2" href="/about.php">Learn More</a>
 
        </div>
 
@@ -105,7 +105,7 @@ if($_GET['function']== "logout") {
 
         <div class="home-section-2-link">
 
-           <a href="courses.php">Enrol Now</a>
+           <a href="/courses.php">Enrol Now</a>
 
         </div>
 
