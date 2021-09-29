@@ -22,7 +22,7 @@ $("#signupLogin").click(function() {
      $.ajax({
     
       method:"POST",
-      url:"actions.php?action=validation",
+      url:"/actions.php?action=validation",
       data:{email:$("#email").val(), password:$("#password").val(), signup:$("#signup").val()},
       success:function(result) {
     
@@ -57,7 +57,7 @@ $("#signupLogin").click(function() {
         $.ajax({
       
         method:"POST",
-        url:"actions.php?action=updatecart",
+        url:"/actions.php?action=updatecart",
         data:{pid:pid, pname:pname, pimage:pimage, pprice:pprice},
         success:function(result) {
       
@@ -80,7 +80,7 @@ $("#signupLogin").click(function() {
       $.ajax({
   
         method:"GET",
-        url:"actions.php",
+        url:"/actions.php",
         data:{cartItem:"cartitem"},
         success:function(result) {
     

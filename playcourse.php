@@ -12,7 +12,7 @@ if(isset($_GET['course'])) {
 
   $course_name = $_GET['course'];
 
-  include("connection.php");
+  include("/connection.php");
 
 }
 
@@ -48,7 +48,7 @@ if(isset($_GET['course'])) {
 
 <body>
 
-    <?php include("header.php"); ?>
+    <?php include("/header.php"); ?>
 
     <section class="paidCourse">
 
@@ -84,4 +84,4 @@ if(isset($_GET['course'])) {
 
     </section>
 
-    <?php include("footer.php"); ?>
+    <?php include("/footer.php"); ?>

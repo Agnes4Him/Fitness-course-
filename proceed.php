@@ -25,7 +25,7 @@ if(isset($_POST['pay_button'])) {
 
   if(empty($first_name) OR empty($last_name) OR empty($phone) OR empty($email)) {
 
-    header("Location:checkout.php?error");
+    header("Location:/checkout.php?error");
 
   }else {
 
@@ -76,7 +76,7 @@ if(isset($_POST['pay_button'])) {
 
 <body>
 
-    <?php include("header.php"); ?>
+    <?php include("/header.php"); ?>
 
     <section class="proceed">
 
@@ -136,7 +136,7 @@ if(isset($_POST['pay_button'])) {
       
             const reference = response.reference;
       
-            window.location.href='success.php?successfullypaid=' + reference;
+            window.location.href='/success.php?successfullypaid=' + reference;
     
           }
   
@@ -148,4 +148,4 @@ if(isset($_POST['pay_button'])) {
 
     </script>
 
-    <?php include("footer.php"); ?>
+    <?php include("/footer.php"); ?>

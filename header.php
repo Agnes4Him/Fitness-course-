@@ -20,7 +20,7 @@
 
             <li><a href="/courses.php">Courses</a></li>
 
-            <?php include("connection.php");
+            <?php include("/connection.php");
 
             $query = "SELECT * FROM orders WHERE user_id='".$_SESSION['id']."'";
 

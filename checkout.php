@@ -39,7 +39,7 @@ if($_GET['function']== "logout") {
 
 <body>
 
-<?php include("header.php"); ?>
+<?php include("/header.php"); ?>
 
 <section>
 
@@ -55,7 +55,7 @@ if($_GET['function']== "logout") {
 
       </div>
 
-      <form method="POST" action="http://localhost:8888/portfolio_projects/fitnesscourse/proceed.php">
+      <form method="POST" action="/proceed.php">
       
         <div><input type="text" name="first_name" placeholder="Enter First Name"></div>
 
@@ -89,4 +89,4 @@ if($_GET['function']== "logout") {
 
 </section>
 
-<?php include("footer.php"); ?>
+<?php include("/footer.php"); ?>

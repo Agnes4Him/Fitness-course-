@@ -41,7 +41,7 @@ session_unset();
 
 <body>
 
-  <?php include("header.php"); ?>
+  <?php include("/header.php"); ?>
 
   <section>
 
@@ -67,7 +67,7 @@ session_unset();
 
   <?php if($_SESSION['id']) {
 
- include("connection.php");
+ include("/connection.php");
 
 $query = "SELECT * FROM cart WHERE userid='".$_SESSION['id']."'";
 
@@ -142,4 +142,4 @@ while($row=mysqli_fetch_assoc($result)) { ?>
 
 </section>
 
-<?php include("footer.php"); ?>
+<?php include("/footer.php"); ?>

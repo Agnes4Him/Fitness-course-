@@ -1,4 +1,4 @@
-<?php include("connection.php"); ?>
+<?php include("/connection.php"); ?>
 
 <footer>
 
@@ -10,9 +10,9 @@
 
             <ul>
  
-              <li><a href="about.php">About Us</a></li>
+              <li><a href="/about.php">About Us</a></li>
 
-              <li><a href="courses.php">Courses</a></li>
+              <li><a href="/courses.php">Courses</a></li>
 
             </ul>
 
@@ -90,7 +90,7 @@
 
       <ul>
 
-        <?php include("connection.php");
+        <?php include("/connection.php");
 
         $query = "SELECT * FROM orders WHERE user_id='".$_SESSION['id']."'";
 
@@ -98,7 +98,7 @@
 
         foreach($result as $row){ ?>
 
-        <li><a href="playcourse.php?course=<?php echo $row['product_name']; ?>"><?php echo $row['product_name']; ?></a></li>
+        <li><a href="/playcourse.php?course=<?php echo $row['product_name']; ?>"><?php echo $row['product_name']; ?></a></li>
 
         <?php }  ?>
 

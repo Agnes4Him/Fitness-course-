@@ -9,7 +9,7 @@ if($_GET['function']== "logout") {
 
 if(!$_GET['successfullypaid']) {
 
-  header('Location:checkout.php');
+  header('Location:/checkout.php');
 
   exit;
 
@@ -31,7 +31,7 @@ $product_name = $_SESSION['product_name'];
 
 $product_price = $_SESSION['product_price'];
 
-include("connection.php");
+include("/connection.php");
 
 $query = "INSERT INTO orders (user_id, first_name, last_name, email, phone, product_name, product_price, reference) VALUES('".$_SESSION['id']."','".mysqli_real_escape_string($link, $first_name).
 
@@ -92,7 +92,7 @@ if(mysqli_query($link, $query)) {
 
 <body>
 
-    <?php include("header.php"); ?>
+    <?php include("/header.php"); ?>
 
     <section class="paymentDetails">
 
@@ -168,4 +168,4 @@ if(mysqli_query($link, $query)) {
 
     </section>
 
-    <?php include("footer.php"); ?>
+    <?php include("/footer.php"); ?>
