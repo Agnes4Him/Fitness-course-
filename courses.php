@@ -41,7 +41,7 @@ if($_GET['function']== "logout") {
 
 <body>
 
-     <?php include("/header.php"); ?>
+     <?php include("header.php"); ?>
 
      <section>
 
@@ -90,7 +90,7 @@ if($_GET['function']== "logout") {
                  
                <?php 
 
-                 include("/connection.php"); 
+                 include("connection.php"); 
                  
                  $query="SELECT * FROM products WHERE id=1 LIMIT 1";
 
@@ -124,7 +124,7 @@ if($_GET['function']== "logout") {
 
               <?php 
 
-              include("/connection.php"); 
+              include("connection.php"); 
 
               $query="SELECT * FROM products WHERE id=2 LIMIT 1";
 
@@ -162,7 +162,7 @@ if($_GET['function']== "logout") {
 
              <?php
 
-              include("/connection.php"); 
+              include("connection.php"); 
 
               $query="SELECT * FROM products WHERE id=3 LIMIT 1";
 
@@ -196,7 +196,7 @@ if($_GET['function']== "logout") {
 
               <?php
 
-              include("/connection.php"); 
+              include("connection.php"); 
 
               $query="SELECT * FROM products WHERE id=4 LIMIT 1";
 
@@ -226,4 +226,4 @@ if($_GET['function']== "logout") {
 
      </section>
 
-    <?php include("/footer.php"); ?>
+    <?php include("footer.php"); ?>

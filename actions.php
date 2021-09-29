@@ -9,7 +9,7 @@ if($_GET['function']== "logout") {
 
 if($_GET['action']=="validation") {
 
-  include("/connection.php");
+  include("connection.php");
 
   $error=""; 
   $success="";
@@ -112,7 +112,7 @@ if($_GET['action']=="validation") {
 
 if($_GET['action']=="updatecart") {
 
-  include("/connection.php");
+  include("connection.php");
 
   $cartMessage = "";
 
@@ -173,7 +173,7 @@ if($_GET['action']=="updatecart") {
       
       if($_GET['cartItem'] == 'cartitem') {
 
-        include("/connection.php");
+        include("connection.php");
 
         $query = "SELECT * FROM cart WHERE userid='".$_SESSION['id']."'";
       
@@ -187,7 +187,7 @@ if($_GET['action']=="updatecart") {
 
       if(isset($_GET['clear'])) {
 
-        include("/connection.php"); 
+        include("connection.php"); 
         
         $deleteallquery = "DELETE FROM cart WHERE userid='".$_SESSION['id']."'";
         
@@ -203,7 +203,7 @@ if($_GET['action']=="updatecart") {
         
         if(isset($_GET['remove'])) {
         
-        include("/connection.php");
+        include("connection.php");
         
         $deleteitemquery = "DELETE FROM cart WHERE pid ='".$_GET['remove']."' AND userid ='".$_SESSION['id']."' LIMIT 1";
         

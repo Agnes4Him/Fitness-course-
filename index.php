@@ -39,7 +39,7 @@ if($_GET['function']== "logout") {
 
 <body>
 
-    <?php include("/header.php"); ?>
+    <?php include("header.php"); ?>
 
     <section>
 
@@ -191,6 +191,6 @@ if($_GET['function']== "logout") {
     
     </section>
 
-    <?php include("/footer.php"); ?>
+    <?php include("footer.php"); ?>
 
     

@@ -76,7 +76,7 @@ if(isset($_POST['pay_button'])) {
 
 <body>
 
-    <?php include("/header.php"); ?>
+    <?php include("header.php"); ?>
 
     <section class="proceed">
 
@@ -148,4 +148,4 @@ if(isset($_POST['pay_button'])) {
 
     </script>
 
-    <?php include("/footer.php"); ?>
+    <?php include("footer.php"); ?>

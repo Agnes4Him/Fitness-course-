@@ -7,7 +7,7 @@ if($_GET['function']== "logout") {
   session_unset();
 }
 
-include("/connection.php");
+include("connection.php");
 
 ?>
 

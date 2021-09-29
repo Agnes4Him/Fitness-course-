@@ -1,4 +1,4 @@
-<?php include("/connection.php"); ?>
+<?php include("connection.php"); ?>
 
 <footer>
 
@@ -90,7 +90,7 @@
 
       <ul>
 
-        <?php include("/connection.php");
+        <?php include("connection.php");
 
         $query = "SELECT * FROM orders WHERE user_id='".$_SESSION['id']."'";
 
