@@ -95,7 +95,7 @@ while($row=mysqli_fetch_assoc($result)) { ?>
 
       </a>
 
-      <form method="POST" action="/checkout.php">
+      <form method="POST" action="checkout.php">
 
         <input type="hidden" name="p_name" value="<?php echo $row['pname'] ?>">
 

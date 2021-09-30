@@ -55,7 +55,7 @@ if($_GET['function']== "logout") {
 
       </div>
 
-      <form method="POST" action="/proceed.php">
+      <form method="POST" action="proceed.php">
       
         <div><input type="text" name="first_name" placeholder="Enter First Name"></div>
 
